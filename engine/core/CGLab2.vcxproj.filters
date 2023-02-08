@@ -1,0 +1,877 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Delegates">
+      <UniqueIdentifier>{767523e3-73de-41f0-9a6c-62b4e766bb42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{dd8270f7-4605-4ae5-bbdf-aaa5e18a7126}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TinyObjLoader">
+      <UniqueIdentifier>{9fe37768-0dcc-49ec-8ea6-22aa527d5cb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{e414bae3-5c22-46b8-a676-1a89d0e3c02b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Json">
+      <UniqueIdentifier>{af512a77-c7a2-4d99-9c44-3daf0f5434d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bridge">
+      <UniqueIdentifier>{f39e6195-6222-416e-8a64-c7328e35e3c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{74002109-e0c2-4b09-8c1c-e5c2c5d8aacf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render">
+      <UniqueIdentifier>{4a6a2856-ba60-41d3-9966-03f750887cf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Lighting">
+      <UniqueIdentifier>{480c5b19-1851-4939-9aa7-23f209b4fa53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Not Components">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Render\Render Passes">
+      <UniqueIdentifier>{281a90ee-65a1-4199-bcb7-a73dd73e0212}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Resources">
+      <UniqueIdentifier>{bf3080bd-d488-4ac0-aed8-b2aa68d536c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui\TextEditor">
+      <UniqueIdentifier>{1367e662-7a7d-46f9-bfb0-49b53111381c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{e1ce7b92-18aa-4c25-8cef-40ffde6f16ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imguizmo">
+      <UniqueIdentifier>{a3f48340-4891-484e-8141-6d641a32d4be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ContextMenu">
+      <UniqueIdentifier>{5a3df525-2064-477c-b6ac-7f471709846a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FirePhysics">
+      <UniqueIdentifier>{ffb34ada-54f3-40f8-bbb5-7db8dd57d769}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FirePhysics\Physics">
+      <UniqueIdentifier>{6d775892-106f-4314-90ab-2ef648f66013}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI">
+      <UniqueIdentifier>{c08fe36c-e735-4477-86e0-ae43a29a2efb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Delegates.cpp">
+      <Filter>Delegates</Filter>
+    </ClCompile>
+    <ClCompile Include="Forms.cpp">
+      <Filter>Not Components</Filter>
+    </ClCompile>
+    <ClCompile Include="FPSCounter.cpp">
+      <Filter>Not Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Not Components</Filter>
+    </ClCompile>
+    <ClCompile Include="HotKeys.cpp">
+      <Filter>Not Components</Filter>
+    </ClCompile>
+    <ClCompile Include="InputDevice.cpp">
+      <Filter>Not Components</Filter>
+    </ClCompile>
+    <ClCompile Include="LineMath.cpp">
+      <Filter>Not Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Not Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyingCamera.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="GameController.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="LinedPlain.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveController.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformTest.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshAsset.cpp">
+      <Filter>Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageAsset.cpp">
+      <Filter>Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSystem.cpp">
+      <Filter>Not Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerController.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerCamera.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Attachable.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="AxisDrawer.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="AxisDrawer.h">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleMath.cpp">
+      <Filter>Not Components</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassInfo.cpp">
+      <Filter>bridge</Filter>
+    </ClCompile>
+    <ClCompile Include="CppClass.cpp">
+      <Filter>bridge</Filter>
+    </ClCompile>
+    <ClCompile Include="CSBridge.cpp">
+      <Filter>bridge</Filter>
+    </ClCompile>
+    <ClCompile Include="CSLinked.cpp">
+      <Filter>bridge</Filter>
+    </ClCompile>
+    <ClCompile Include="MonoInst.cpp">
+      <Filter>bridge</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Not Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Bridge.cpp">
+      <Filter>bridge</Filter>
+    </ClCompile>
+    <ClCompile Include="Refs.cpp">
+      <Filter>bridge</Filter>
+    </ClCompile>
+    <ClCompile Include="CS.cpp">
+      <Filter>bridge</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorBase.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx11.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Render.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderDevice.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowMapRender.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Lighting.cpp">
+      <Filter>Render\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionLight.cpp">
+      <Filter>Render\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderAsset.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="CSComponent.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Not Components</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshComponent.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderPass.cpp">
+      <Filter>Render\Render Passes</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowPass.cpp">
+      <Filter>Render\Render Passes</Filter>
+    </ClCompile>
+    <ClCompile Include="OpaquePass.cpp">
+      <Filter>Render\Render Passes</Filter>
+    </ClCompile>
+    <ClCompile Include="Tmp.cpp">
+      <Filter>Not Components</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTarget.cpp">
+      <Filter>Render\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Render\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderResource.cpp">
+      <Filter>Render\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Render\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="DepthStencil.cpp">
+      <Filter>Render\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="LightingPass.cpp">
+      <Filter>Render\Render Passes</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderPassUI.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\TextEditor\TextEditor.cpp">
+      <Filter>imgui\TextEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets.cpp">
+      <Filter>Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="PointLight.cpp">
+      <Filter>Render\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="AmbientLight.cpp">
+      <Filter>Render\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="SpotLight.cpp">
+      <Filter>Render\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="TestLightComponent.cpp">
+      <Filter>Render\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UI_BarMenu.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UI_Console.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UI_ContentBrowser.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UI_Editor.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UI_Hierarchy.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UI_Inspector.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UI_PlayGame.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UI_UpperMenu.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UserInterface.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectionPass.cpp">
+      <Filter>Render\Render Passes</Filter>
+    </ClCompile>
+    <ClCompile Include="OutlinePass.cpp">
+      <Filter>Render\Render Passes</Filter>
+    </ClCompile>
+    <ClCompile Include="BlurPass.cpp">
+      <Filter>Render\Render Passes</Filter>
+    </ClCompile>
+    <ClCompile Include="imguizmo\ImGuizmo.cpp">
+      <Filter>imguizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorCamera.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Not Components</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetStore.cpp">
+      <Filter>Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\ComponentPicker.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneRenderer.cpp">
+      <Filter>Not Components</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\SceneWindow.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\SceneEditorWindow.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\AssetPickerPopup.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorSettings.cpp">
+      <Filter>Not Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ContextMenu.cpp">
+      <Filter>ContextMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\misc\cpp\imgui_stdlib.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Rigidbody.cpp">
+      <Filter>FirePhysics\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Colliders.cpp">
+      <Filter>FirePhysics\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics.cpp">
+      <Filter>FirePhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="FireActivationListener.cpp">
+      <Filter>FirePhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="FireContactListener.cpp">
+      <Filter>FirePhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsScene.cpp">
+      <Filter>FirePhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="Layers.cpp">
+      <Filter>FirePhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="JoltExtantions.cpp">
+      <Filter>FirePhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\PrefabPickerPopup.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\ScenePickerPopup.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>FirePhysics\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\Rete.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\Rete_AI.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\Condition.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\ConstTestNode.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\AlphaMemory.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\BetaMemory.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\JoinNode.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\ProductionNode.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\WME.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\TestJoin.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\Token.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AIComponent.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="NavMesh.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FPSCounter.h">
+      <Filter>Not Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Not Components</Filter>
+    </ClInclude>
+    <ClInclude Include="IApp.h">
+      <Filter>Not Components</Filter>
+    </ClInclude>
+    <ClInclude Include="InputDevice.h">
+      <Filter>Not Components</Filter>
+    </ClInclude>
+    <ClInclude Include="IWin32InputHandler.h">
+      <Filter>Not Components</Filter>
+    </ClInclude>
+    <ClInclude Include="IWindow.h">
+      <Filter>Not Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Keys.h">
+      <Filter>Not Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Not Components</Filter>
+    </ClInclude>
+    <ClInclude Include="wrl.h_d3d11_alias.h">
+      <Filter>Not Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Delegates.h">
+      <Filter>Delegates</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Not Components</Filter>
+    </ClInclude>
+    <ClInclude Include="HotKeys.h">
+      <Filter>Not Components</Filter>
+    </ClInclude>
+    <ClInclude Include="LineMath.h">
+      <Filter>Not Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Not Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Easing.h">
+      <Filter>Not Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Forms.h">
+      <Filter>Not Components</Filter>
+    </ClInclude>
+    <ClInclude Include="tiny_obj_loader.h">
+      <Filter>TinyObjLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.inl">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyingCamera.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="GameController.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="LinedPlain.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveController.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="RotatorComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ScalerComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformTest.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshAsset.h">
+      <Filter>Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageAsset.h">
+      <Filter>Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSystem.h">
+      <Filter>Not Components</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleMath.h">
+      <Filter>Not Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerController.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerCamera.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Attachable.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="json.hpp">
+      <Filter>Json</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="LineComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="TestComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassInfo.h">
+      <Filter>bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="CppClass.h">
+      <Filter>bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="CSBridge.h">
+      <Filter>bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="CSLinked.h">
+      <Filter>bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="MonoInst.h">
+      <Filter>bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="Bridge.h">
+      <Filter>bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="Refs.h">
+      <Filter>bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="CsLink.h">
+      <Filter>Not Components</Filter>
+    </ClInclude>
+    <ClInclude Include="CS.h">
+      <Filter>bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentMeta.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx11.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Render.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderDevice.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowMapRender.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Lighting.h">
+      <Filter>Render\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionLight.h">
+      <Filter>Render\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderAsset.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="CSComponent.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Not Components</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshComponent.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderPass.h">
+      <Filter>Render\Render Passes</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowPass.h">
+      <Filter>Render\Render Passes</Filter>
+    </ClInclude>
+    <ClInclude Include="OpaquePass.h">
+      <Filter>Render\Render Passes</Filter>
+    </ClInclude>
+    <ClInclude Include="Tmp.h">
+      <Filter>Not Components</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTarget.h">
+      <Filter>Render\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Render\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialAlias.h">
+      <Filter>Render\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderResource.h">
+      <Filter>Render\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Render\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="DepthStencil.h">
+      <Filter>Render\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="LightingPass.h">
+      <Filter>Render\Render Passes</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderPassUI.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\TextEditor\TextEditor.h">
+      <Filter>imgui\TextEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets.h">
+      <Filter>Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLight.h">
+      <Filter>Render\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="AmbientLight.h">
+      <Filter>Render\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="ILightSource.h">
+      <Filter>Render\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="IShadowCaster.h">
+      <Filter>Render\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="SpotLight.h">
+      <Filter>Render\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="TestLightComponent.h">
+      <Filter>Render\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UI_BarMenu.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UI_Console.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UI_ContentBrowser.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UI_Editor.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UI_Hierarchy.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UI_Inspector.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UI_PlayGame.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UI_UpperMenu.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UserInterface.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorCBuffer.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectionPass.h">
+      <Filter>Render\Render Passes</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorCBuffer.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="OutlinePass.h">
+      <Filter>Render\Render Passes</Filter>
+    </ClInclude>
+    <ClInclude Include="BlurPass.h">
+      <Filter>Render\Render Passes</Filter>
+    </ClInclude>
+    <ClInclude Include="IAsset.h">
+      <Filter>Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="imguizmo\ImGuizmo.h">
+      <Filter>imguizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorCamera.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Not Components</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetStore.h">
+      <Filter>Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\ComponentPicker.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="RunMode.h">
+      <Filter>Not Components</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneRenderer.h">
+      <Filter>Not Components</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\SceneWindow.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\SceneEditorWindow.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\AssetPickerPopup.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorSettings.h">
+      <Filter>Not Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ContextMenu.h">
+      <Filter>ContextMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\misc\cpp\imgui_stdlib.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="SafeDestroy.h">
+      <Filter>Not Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Rigidbody.h">
+      <Filter>FirePhysics\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Colliders.h">
+      <Filter>FirePhysics\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics.h">
+      <Filter>FirePhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="FireActivationListener.h">
+      <Filter>FirePhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="FireContactListener.h">
+      <Filter>FirePhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsScene.h">
+      <Filter>FirePhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="Layers.h">
+      <Filter>FirePhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="JoltExtantions.h">
+      <Filter>FirePhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\PrefabPickerPopup.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\ScenePickerPopup.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>FirePhysics\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Rete.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Condition.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\ConstTestNode.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\AlphaMemory.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\BetaMemory.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\JoinNode.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\ProductionNode.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\WME.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\TestJoin.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Token.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AIComponent.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Contact.h">
+      <Filter>FirePhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="NavMesh.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="Delegates.natvis">
+      <Filter>Delegates</Filter>
+    </Natvis>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Refs.inl">
+      <Filter>bridge</Filter>
+    </None>
+    <None Include="Actor.h">
+      <Filter>Components</Filter>
+    </None>
+    <None Include="Actor.inl">
+      <Filter>Components</Filter>
+    </None>
+    <None Include="ActorBase.h">
+      <Filter>Components</Filter>
+    </None>
+    <None Include="ActorBase.inl">
+      <Filter>Components</Filter>
+    </None>
+    <None Include="ActorConcepts.h">
+      <Filter>Components</Filter>
+    </None>
+  </ItemGroup>
+</Project>
